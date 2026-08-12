@@ -1,16 +1,45 @@
-# React + Vite
+AI-Powered Study Companion
+Overview
+The AI-Powered Study Companion is a React-based web application designed to optimize the learning experience. By leveraging artificial intelligence, it provides users with personalized study tools, task tracking, and interactive learning aids to improve academic productivity and retention.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Intelligent Task Management: Dynamically organize and prioritize study schedules.
 
-Currently, two official plugins are available:
+Interactive AI Assistant: Generate summaries, quizzes, and explanations directly from provided study materials.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Progress Tracking: Monitor completion rates and knowledge retention metrics.
 
-## React Compiler
+Responsive UI: A seamless experience optimized for both desktop and mobile environments.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tech Stack
+Frontend: React, JavaScript
 
-## Expanding the ESLint configuration
+Styling: CSS3 / Tailwind (Update based on your exact implementation)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+AI Integration: Gemini API (Update if using a different model provider)
+
+Deployment: GitHub Pages
+
+Getting Started
+Prerequisites
+Ensure you have Node.js and npm installed on your local development environment.
+
+Installation
+Clone the repository:
+git clone [(https://github.com/SujalGop/AI-Powered-Study-Companion.git)]
+
+
+Set up environment variables by creating a .env file in the root directory:
+REACT_APP_AI_API_KEY=your_api_key_here
+
+
+Roadmap
+Integrate long-term memory for the AI to track user weaknesses across sessions.
+
+Add gamification elements and experience points for task completion.
+
+Implement user authentication for cloud data synchronization.
+
+Author
+Sujal Satish Gopinwar
+Undergraduate Computer Science Student, BITS
