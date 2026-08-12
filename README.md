@@ -30,7 +30,7 @@ git clone [(https://github.com/SujalGop/AI-Powered-Study-Companion.git)]
 
 
 Set up environment variables by creating a .env file in the root directory:
-REACT_APP_AI_API_KEY=your_api_key_here
+VITE_GEMINI_API_KEY=your_api_key_here
 
 
 Roadmap
